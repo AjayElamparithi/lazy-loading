@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#login{
+    background-color: aqua;
+    color: crimson;
+    padding-left: 10px;
+    margin-top: 5%;
+    margin-left: 43%;
+    margin-right: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+#signup{
+    color: crimson;
+    background-color: aqua;
+    padding-right: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+#signup:hover{
+    background-color: aliceblue;
+}
+#login:hover{
+    background-color: aliceblue;
+}
