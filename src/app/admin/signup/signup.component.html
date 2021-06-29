@@ -1,1 +1,10 @@
 <h2>Here is Sign Up Page</h2>
+<div [ngSwitch]="superpowers">
+    <div *ngSwitchCase="'superman'">Super Man having super powers</div>
+    <div *ngSwitchCase="'batman'">Bat Man having a real super powers</div>
+    <div *ngSwitchCase="'spiderman'">Spider is Man having real super powers</div>
+    <div *ngSwitchCase="'ironman'">Iron Man is having a real super powers</div>
+    <div *ngSwitchCase="'captainamerica'">Captain america is having a real super powers</div>
+    <div *ngSwitchDefault>Real Super power is learning...!!!</div>
+</div>
+
