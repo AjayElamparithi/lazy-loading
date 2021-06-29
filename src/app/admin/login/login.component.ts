@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginComponent implements OnInit {
 
+  title = "Learning Gives Creativity";
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  submit(){
+    console.log("Hi Welcome");
   }
 
 }
